@@ -169,7 +169,10 @@ input, select, textarea {
 		letter-spacing: 0.0375em;
 		line-height: 2;
 	}
+.grande {
+	font-size: 2.5rem;
 
+}
 	a {
 		-moz-transition: border-bottom-color 0.25s ease-in-out;
 		-webkit-transition: border-bottom-color 0.25s ease-in-out;
@@ -186,20 +189,23 @@ input, select, textarea {
 		}
 
 	strong, b {
-		font-weight: 600;
+		font-weight: 600; 
 		color: #000000;
 	}
 
 	em, i {
 		font-style: italic;
 	}
-
+	
+	.branco {
+		color: #ffffff;
+	}
 	p {
 		margin: 0 0 2rem 0;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #000000;
+		color: #ffffff;
 		font-family: "Raleway", Helvetica, sans-serif;
 		font-weight: 600;
 		letter-spacing: 0.175em;
@@ -2139,7 +2145,7 @@ input, select, textarea {
 		}
 
 	label {
-		color: #000000;
+		color: #ffffff;
 		display: block;
 		font-family: "Raleway", Helvetica, sans-serif;
 		font-size: 0.75rem;
@@ -2337,6 +2343,7 @@ input, select, textarea {
 
 		.icon > .label {
 			display: none;
+			
 		}
 
 		.icon.solid:before {
@@ -2838,6 +2845,7 @@ input, select, textarea {
 /* Arrow */
 
 	a.arrow {
+		color: #ffffff;
 		border-bottom: 0;
 		display: inline-block;
 		height: 4rem;
@@ -2846,7 +2854,9 @@ input, select, textarea {
 	}
 
 		a.arrow .label {
+			color: #ffffff;
 			display: none;
+			
 		}
 
 		a.arrow:before {
@@ -3380,7 +3390,11 @@ input, select, textarea {
 				width: 0.5rem;
 				z-index: 1;
 			}
-
+			.seu-seletor-de-seta {
+				color: white; /* Para texto */
+				fill: white;  /* Para SVGs */
+			}
+			
 		#wrapper .copyright {
 			color: rgba(0, 0, 0, 0.25);
 			font-size: 1rem;
@@ -3390,7 +3404,7 @@ input, select, textarea {
 		}
 
 			#wrapper .copyright a {
-				color: inherit;
+				color: #ffffff;
 			}
 
 		#wrapper section {
